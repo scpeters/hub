@@ -54,7 +54,6 @@ func (a *Args) Replace(executable, command string, params ...string) {
 	a.Executable = executable
 	a.Command = command
 	a.Params = params
-	a.GlobalFlags = []string{}
 	a.noForward = false
 }
 
